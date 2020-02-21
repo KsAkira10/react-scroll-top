@@ -5,7 +5,8 @@ module.exports = {
     umd: {
       global: 'ReactScrollTop',
       externals: {
-        react: 'React'
+        react: 'React',
+        'react-router-dom': 'ReactRouterDom'
       }
     }
   }
